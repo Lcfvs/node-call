@@ -35,7 +35,7 @@ call = (function () {
         }
     };
     
-    return function call(fn, delay) {
+    return function call(fn) {
         var thens, operator, completed, args;
         
         thens = [];
