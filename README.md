@@ -28,7 +28,7 @@ This module is browser compatible.
     <dd>
         <dl>
             <dt>
-                <strong>Object channel :</strong>
+                Object <strong>channel</strong> :
             </dt>
             <dd>
                 <dl>
@@ -38,22 +38,22 @@ This module is browser compatible.
                     <dd>
                         <dl>
                             <dt>
-                                <strong>Function done :</strong>
+                                Function <strong>done</strong> :
                             </dt>
                             <dd>
                             </dd>
                             <dt>
-                                <strong>Function fail :</strong>
+                                Function <strong>fail</strong> :
                             </dt>
                             <dd>
                             </dd>
                             <dt>
-                                <strong>Function lastly :</strong>
+                                Function <strong>lastly</strong> :
                             </dt>
                             <dd>
                             </dd>
                             <dt>
-                                <strong>Function then :</strong>
+                                Function <strong>then</strong> :
                             </dt>
                             <dd>
                             </dd>
@@ -62,7 +62,7 @@ This module is browser compatible.
                 </dl>
             </dd>
             <dt>
-                <strong>Function closure :</strong>
+                Function <strong>closure</strong> :
             </dt>
             <dd>
                 <dl>
@@ -72,6 +72,12 @@ This module is browser compatible.
                     <dd>
                         <dl>
                             <dt>
+                                Function <strong>resolve</strong> :
+                            </dt>
+                            <dd>
+                            </dd>
+                            <dt>
+                                Function <strong>reject</strong> :
                             </dt>
                             <dd>
                             </dd>
