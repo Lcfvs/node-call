@@ -1,3 +1,8 @@
+/* 
+Copyright 2013 Lcf.vs
+Released under the MIT license
+https://github.com/Lcfvs/node-call
+*/
 var call;
 
 call = (function () {
