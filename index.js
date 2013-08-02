@@ -16,18 +16,19 @@ call = (function () {
     
     apply = function apply(thens, property, args) {
         thens.forEach(function(then) {
-            var fn;
+            var fn, lastly;
             
             fn = then[property];
+            lastly = then['lastly'];
             
             if (typeof fn === 'function') {
                 fn.apply(null, args);
             }
+            
+            if (typeof lastly === 'function') {
+                lastly.apply(null, args);
+            }
         });
-        
-        if (property !== 'lastly') {
-            apply(thens, 'lastly', args);
-        }
     };
     
     append = function append(thens, then, completed, args) {
@@ -40,7 +41,7 @@ call = (function () {
         }
     };
     
-    return function call(fn) {
+    return function call(fn, delay) {
         var thens, operator, completed, args;
         
         thens = [];
